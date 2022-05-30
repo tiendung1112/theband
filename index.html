@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE BAND</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <style>
+        body {font-family: "Lato", sans-serif}
+        .mySlides {display: none}
+    </style>
+<body>
+    <div id="main">
+        <div id="header">
+           <ul id="nav">
+               <li><a href="">Home</a></li>
+               <li><a href="">Band</a></li>
+               <li><a href="">Tour</a></li>
+               <li><a href="">Contact</a></li>
+               <li>
+                   <a href="">More<ion-icon name="chevron-down-outline"></ion-icon></a>
+                   <ul id="subnav">
+                       <li><a href="">Merchandise</a></li>
+                       <li><a href="">Extras</a></li>
+                       <li><a href="">Media</a></li>
+                   </ul>
+                </li>
+           </ul>
+           <div class="search-btn">
+                <ion-icon name="search-outline"></ion-icon>
+           </div>
+        </div>
+        <div id="slider">
+            <div class="text-content">
+                <h2 class="text-heading">Los Angeles</h2>
+                <div class="text-description">We had the best time playing at Venice Beach!</div>
+            </div>
+        </div>
+        <div id="content">  
+            <div class="content-section">
+                <h2 class="section-heading">THE BAND</h2>
+                <p class="section-sub-heading">We love music</p>
+                <p class="text-about">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="member-list">
+                    <div class="member-item">
+                        <div class="member-name">Name</div>
+                        <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Name" class="member-image">
+                    </div>
+                    <div class="member-item">
+                        <div class="member-name">Name</div>
+                        <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Name" class="member-image">
+                    </div>
+                    <div class="member-item">
+                        <div class="member-name">Name</div>
+                        <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Name" class="member-image">
+                    </div>
+                </div>
+            </div>
+            <div class="tour-section">
+                <div class="content-section">
+                    <h2 class="section-heading text-white">TOUR DATES</h2>
+                    <p class="section-sub-heading text-white">Remember to book your tickets!</p>
+                    <ul class="list-tickets">
+                        <li>September<span class="sold-out">Sold out</span></li>
+                        <li>October<span class="sold-out">Sold out</span></li>
+                        <li>November <span class="quantity">3</span></li>
+                    </ul>
+                    <div class="places-list">
+                        <div class="place-item">
+                            <img src="https://www.w3schools.com/w3images/newyork.jpg" alt="" class="place-img">
+                            <div class="place-content">
+                                <div class="place-heading">New York</div>
+                                <div class="place-time">Fri 27 Nov 2016</div>
+                                <div class="place-descriptiop">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
+                                <button class="buy-ticket-btn js-buy-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="place-item">
+                            <img src="https://www.w3schools.com/w3images/paris.jpg" alt="" class="place-img">
+                            <div class="place-content">
+                                <div class="place-heading">Paris</div>
+                                <div class="place-time">Sat 28 Nov 2016</div>
+                                <div class="place-descriptiop">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
+                                <button class="buy-ticket-btn js-buy-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="place-item">
+                            <img src="https://www.w3schools.com/w3images/sanfran.jpg" alt="" class="place-img">
+                            <div class="place-content">
+                                <div class="place-heading">San Francisco</div>
+                                <div class="place-time">Sun 29 Nov 2016</div>
+                                <div class="place-descriptiop">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
+                                <button class="buy-ticket-btn js-buy-ticket">Buy Tickets</button> 
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>      
+            <div class="content-section">
+                <h2 class="section-heading">CONTACT</h2>
+                <p class="section-sub-heading">Fan? Drop a note!</p>
+                <div class="contact">
+                    <div class="information">
+                        <div class="information-addr">
+                            <ion-icon name="earth"></ion-icon>
+                            Chicago, US
+                        </div>
+                        <div class="information-phone">
+                            <ion-icon name="call"></ion-icon>
+                            Phone: +00 151515
+                        </div>
+                        <div class="information-email">
+                            <ion-icon name="mail"></ion-icon>
+                            Email: mail@mail.com
+                        </div>
+                    </div>
+                    <form class="contact-input">
+                        <input type="text" class="contact-name input" placeholder="Name" required>
+                        <input type="text" class="contact-email input" placeholder="Email" required>
+                        <input type="text" class="contact-message input" placeholder="Message" required>
+                        <button type="submit" class="contact-btn">SEND</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+
+        </div>
+    </div>
+    <div class="modal">
+        <div class="modal-container">
+            <div class="modal-close">
+                <ion-icon name="close-outline"></ion-icon>
+            </div>
+            <div class="modal-heading">
+                <ion-icon name="bag-handle"></ion-icon>
+                Tickets
+            </div>
+            <div class="modal-body">
+                <label for="" class="modal-lable">
+                    <ion-icon name="cart"></ion-icon>
+                    Tickets, $15 per person
+                </label>
+                <input type="text" class="modal-input" placeholder="How many?">
+                <label for="" class="modal-lable">
+                    <ion-icon name="person"></ion-icon>
+                    Send To
+                </label>
+                <input type="text" class="modal-input" placeholder="Enter email">
+                <button class="buy-ticked">
+                    PAY
+                    <ion-icon name="checkmark-sharp"></ion-icon>
+                </button>
+                <div class="modal-help">
+                    Need
+                    <a href="">help?</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        const buybtns = document.querySelectorAll('.js-buy-ticket')
+        const modal = document.querySelector('.modal')
+        const modalClose = document.querySelector('.modal-close')
+        const modalContainer = document.querySelector('.modal-container')
+
+        function showModal() {
+            modal.classList.add('open')
+        } 
+
+        function hideModal() {
+            modal.classList.remove('open')
+        }
+
+        for(const buybtn of buybtns){
+            buybtn.addEventListener('click', showModal)
+        }
+
+        modalClose.addEventListener('click', hideModal)
+
+        modal.addEventListener('click', hideModal)
+
+        modalContainer.addEventListener('click', function(event) {
+            event.stopPropagation()
+        })
+        
+    </script>
+    
+</body>
+</html>
