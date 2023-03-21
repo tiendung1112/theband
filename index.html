@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>THE BAND</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="./assets/style.css">
     <style>
         body {
@@ -19,6 +20,12 @@
     </style>
 
 <body>
+    <div class="phone-wrapper">
+        <button class="phone-button phone-button-small animated pulse" aria-label="Liên hệ">
+            <i class="fas fa-phone-alt"></i>
+        </button>
+    </div>
+
     <!-- Messenger Plugin chat Code -->
     <div id="fb-root"></div>
 
@@ -210,7 +217,7 @@
     </div>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script>
+    <!-- <script>
         // Kiểm tra xem người dùng truy cập trang web bằng thiết bị di động hay không
         function isMobile() {
             // Sử dụng phương thức test của biểu thức chính quy để so khớp chuỗi ký tự "Mobi" trong navigator.userAgent
@@ -224,7 +231,7 @@
             alert("Bạn đang truy cập trang web bằng máy tính");
         }
 
-    </script>
+    </script> -->
     <script>
         const buybtns = document.querySelectorAll('.js-buy-ticket')
         const modal = document.querySelector('.modal')

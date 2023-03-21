@@ -379,3 +379,98 @@
 }
 
 
+
+.phone-wrapper {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999999;
+  }
+  
+  .phone-button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #008CBA;
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    animation: shake 2s infinite;
+  }
+  
+  .phone-button:hover {
+    background-color: #00678E;
+  }
+
+  .phone-button-small {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  @media (max-width: 767px) {
+    .phone-button-small {
+      width: 30px;
+      height: 30px;
+      font-size: 16px;
+    }
+  }
+  
+  @keyframes shake {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(10deg); }
+    20% { transform: rotate(-10deg); }
+    30% { transform: rotate(10deg); }
+    40% { transform: rotate(-10deg); }
+    50% { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+  }
+  
+  .animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+  @-webkit-keyframes pulse {
+    from {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  
+    50% {
+      -webkit-transform: scale3d(1.05, 1.05, 1.05);
+      transform: scale3d(1.05, 1.05, 1.05);
+    }
+  
+    to {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  
+  @keyframes pulse {
+    from {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  
+    50% {
+      -webkit-transform: scale3d(1.05, 1.05, 1.05);
+      transform: scale3d(1.05, 1.05, 1.05);
+    }
+  
+    to {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  
+  .pulse {
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+  }
+  
