@@ -381,9 +381,10 @@
 
 
 .phone-wrapper {
+    display: inline-block;
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 80px;
+    right: 30px;
     z-index: 999999;
   }
   
