@@ -476,6 +476,22 @@
   }
   
 
-  #fb-customer-chat {
+  /* Thay đổi màu nền của plugin chat */
+  .fb-customerchat {
     background-color: red;
+  }
+  
+  /* Thay đổi màu chữ của plugin chat */
+  .fb-customerchat span {
+    color: red;
+  }
+  
+  /* Thay đổi màu nền của nút chat */
+  .fb_customer_chat_bounce_in_vietnamese_supported .fb_customer_chat_bounce_in_vietnamese_supported_button {
+    background-color: red;
+  }
+  
+  /* Thay đổi màu chữ của nút chat */
+  .fb_customer_chat_bounce_in_vietnamese_supported .fb_customer_chat_bounce_in_vietnamese_supported_button span {
+    color: red;
   }
