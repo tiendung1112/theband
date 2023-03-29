@@ -389,8 +389,8 @@
   }
   
   .phone-button {
-    width: 80px;
-    height: 80px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background-color: #008CBA;
     color: #fff;
@@ -404,6 +404,20 @@
   .phone-button:hover {
     background-color: #00678E;
   }
+
+  /* .phone-button-small {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  } */
+
+  /* @media (max-width: 767px) {
+    .phone-button-small {
+      width: 30px;
+      height: 30px;
+      font-size: 16px;
+    }
+  } */
   
   @keyframes shake {
     0% { transform: rotate(0deg); }
@@ -461,3 +475,7 @@
     animation-name: pulse;
   }
   
+
+  #fb-customer-chat {
+    background-color: red;
+  }
